@@ -1,0 +1,5 @@
+type,src_ip,dst_ip,event_count,avg_interval_sec,interval_cv,evidence,bytes_sent,z_score,window_start,distinct_ports
+beaconing,10.20.0.77,185.220.101.42,90.0,300.0,0.017,"90 connections, avg interval 300.0s, CV=0.017 (< 0.15 threshold)",,,,
+beaconing,10.20.0.91,10.20.0.5,120.0,0.2,0.0,"120 connections, avg interval 0.2s, CV=0.000 (< 0.15 threshold)",,,,
+volume_outlier,10.20.0.55,45.61.33.90,,,,"482,000,000 bytes sent to 45.61.33.90 (z-score 28.44, threshold 3.0)",482000000.0,28.44,,
+port_scan,10.20.0.91,10.20.0.5,,,,120 distinct ports contacted on 10.20.0.5 within 60s starting 2026-09-20 05:02:00,,,2026-09-20 05:02:00,120.0
