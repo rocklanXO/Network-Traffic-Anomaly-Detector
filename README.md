@@ -71,9 +71,3 @@ A full CSV report is written to `reports/anomaly_report.csv`.
 Python · pandas · numpy · statistical anomaly detection (z-score, CV) ·
 NetFlow/Zeek-style flow log analysis
 
-## Resume Line
-
-> Built a Python network traffic anomaly detector applying statistical
-> methods (z-score, coefficient of variation) to NetFlow-style flow logs,
-> identifying beaconing, data-exfiltration, and port-scan patterns from a
-> synthetic 800+ record dataset.
